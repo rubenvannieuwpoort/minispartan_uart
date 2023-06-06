@@ -1,0 +1,14 @@
+net "clk" period = 20 ns | loc = K3;
+
+net "rx"   loc = M7 | iostandard = lvcmos33;
+net "tx"   loc = N6 | iostandard = lvcmos33;
+
+# LEDs
+net "led(0)" loc = P11 | iostandard = lvcmos33 | drive = 8 | slew = slow;
+net "led(1)" loc = N9  | iostandard = lvcmos33 | drive = 8 | slew = slow;
+net "led(2)" loc = M9  | iostandard = lvcmos33 | drive = 8 | slew = slow;
+net "led(3)" loc = P9  | iostandard = lvcmos33 | drive = 8 | slew = slow;
+net "led(4)" loc = T8  | iostandard = lvcmos33 | drive = 8 | slew = slow;
+net "led(5)" loc = N8  | iostandard = lvcmos33 | drive = 8 | slew = slow;
+net "led(6)" loc = P8  | iostandard = lvcmos33 | drive = 8 | slew = slow;
+net "led(7)" loc = P7  | iostandard = lvcmos33 | drive = 8 | slew = slow;
